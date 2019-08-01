@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(pigeon_data)
       name_on_color.each do |individual_name_on_color|
         # check the name
         binding.pry
-        new[individual_name_on_color][:color].push(color_hash_key.to_s)
+        new[individual_name_on_color][color_hash_key].push(color_hash_key.to_s)
       end
     end
   end
