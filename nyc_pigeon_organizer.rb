@@ -7,18 +7,15 @@ def nyc_pigeon_organizer(pigeon_data)
         if !!new[name] == false
             # if the key is not yet in the Hash
             new[name] = {}
+            binding.pry
         end
+        
       end
     end
   end 
   new
 end 
 
-
-
-def alternate
-  
-end
 
 
 
