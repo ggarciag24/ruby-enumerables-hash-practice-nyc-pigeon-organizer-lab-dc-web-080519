@@ -6,10 +6,13 @@ def nyc_pigeon_organizer(pigeon_data)
       names.each do |name|
         if !!new[name] == false
             # if the key is not yet in the Hash
-            new[name] = {}
+            new[name] = {
+              :color => [],
+              :gender => [],
+              :lives => []
+            }
             binding.pry
         end
-        
       end
     end
   end 
