@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(pigeon_data)
   pigeon_data.each do |keyy, value| 
     value.each do |color_hash_key, name_on_color|
       name_on_color.each do |individual_name_on_color|
-        
+        yo = "hello".to_sym
       binding.pry
       end
     end
