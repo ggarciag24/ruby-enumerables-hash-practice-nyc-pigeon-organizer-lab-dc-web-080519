@@ -17,8 +17,7 @@ def nyc_pigeon_organizer(pigeon_data)
     end
   end 
   pigeon_data.each do |keyy, value| 
-      binding.pry
-  key.push(name[:color])
+  
   end
   new
 end 
