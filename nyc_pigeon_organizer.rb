@@ -11,11 +11,12 @@ def nyc_pigeon_organizer(pigeon_data)
               :gender => [],
               :lives => []
             }
-            binding.pry
+            
         end
       end
     end
   end 
+  binding.pry
   new
 end 
 
