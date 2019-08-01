@@ -21,6 +21,10 @@ def nyc_pigeon_organizer(pigeon_data)
       name_on_color.each do |individual_name_on_color|
         # check the name
         individual_name_on_color
+        
+        new["Theo"][:color].push(color_hash_key.to_s)
+        
+        
         # pass the key
       binding.pry
       end
